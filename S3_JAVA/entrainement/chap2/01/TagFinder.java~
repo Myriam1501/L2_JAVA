@@ -1,0 +1,54 @@
+import java.io.*;
+
+public class TagFinder {
+    public String findGeneSimple(String dna) {
+            //codon début = ATG
+            //codon fin = TAA
+            return "";
+    }
+    
+    public void testing() {
+        {
+            String dna1 = "ATGGGGTTTAAATAATAATAG";
+            String gene1 = findGeneSimple(dna1);
+            System.out.println(gene1);
+            
+        }
+        {
+            String dna2 = "AAATGCCCATGGGGTTTAAATAATAATAGTTCAA";
+            String gene2 = findGeneSimple(dna2);
+            System.out.println(gene2);
+            
+        }
+        
+        // et si la chaine ne contient pas ATG?
+        {
+            String dna3 = "GGCTATTTAGGGTTAA";
+            String gene3 = findGeneSimple(dna3);
+            System.out.println(gene3);
+            
+        }
+        
+        // et si la chaine ne contient pas TAA
+        {
+            String dna4 = "GGCTATTTAGGGTTAG";
+            String gene4 = findGeneSimple(dna4);
+            System.out.println(gene4);
+            
+        }
+        
+        
+        //et si les codons étaient groupés par 3?
+        
+        {
+            String dna3 = "ATGGTTAA";
+            String gene3 = findGeneSimple(dna3);
+            System.out.println(gene3);
+            
+        }
+        
+
+
+
+    }
+}

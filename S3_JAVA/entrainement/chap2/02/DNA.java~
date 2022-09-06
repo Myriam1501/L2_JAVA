@@ -1,0 +1,54 @@
+
+public class DNA
+{
+
+    public final String strand;
+    
+    public DNA(String strand){
+        this.strand=strand;
+    }
+    
+    public String getFirstGene(){
+        //trouver la première occurrence d'ATG et l'appeller startIndex
+        //trouver le TAA commençant après l'index (startIndex + 3), appeler ce résultat currIndex
+        //Tant que  **currIndex n'est pas égal à -1**
+        //Vérifier que (currIndex-startIndex) est un multiple de 3
+        //Si VRAI, le texte entre startIndex et currIndex +3 est la réponse
+        //Si FAUX, mettre à jour *currIndex* à l'index du prochain "TAA", en commençant à (currIndex + 1)
+        //Votre réponse est une chaîne vide
+        
+    }
+    
+
+    
+    public static void main(String[] args){
+        
+
+        DNA dna1 = new DNA("ATGAATACGGTAAATTAA");
+        System.out.println("DNA1:"+dna1.getFirstGene());
+        ///        DNA1:ATGAATACGGTAAATTAA
+
+
+
+
+
+        DNA dna2 = new DNA("AAAAAAATGTTAAGCTAATTTTTTTTT");
+        System.out.println("DNA2: "+dna2.getFirstGene());
+        //DNA2: ATGTTAAGCTAA
+        
+        DNA dna3 = new DNA("AAAAAAAAAAAAAAAAAAAAAAAAAATAA");
+        System.out.println("DNA3:" + dna3.getFirstGene());
+        //DNA3:
+        
+        DNA dna4 = new DNA("TTTTTTTTTTATGTTTTAGGGTAGG");
+        System.out.println("DNA4:" + dna4.getFirstGene());
+        //DNA4:
+        
+        DNA dna5 = new DNA("ATGTTAAAATAA");
+        System.out.println("DNA5:" + dna5.getFirstGene());
+        //DNA5:ATGTTAAAATAA
+        
+    }
+    
+    
+}

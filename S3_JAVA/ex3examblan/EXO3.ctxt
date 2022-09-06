@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EXO3
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ EXO3\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=line
+comment1.target=boolean\ isLigneNote(java.lang.String)
+comment2.params=line
+comment2.target=boolean\ isLigneNote2(java.lang.String)
+comment3.params=line
+comment3.target=java.lang.String\ getMatiere(java.lang.String)
+comment4.params=line
+comment4.target=java.lang.String\ getMatiere2(java.lang.String)
+comment5.params=line
+comment5.target=java.lang.Double\ getCoef(java.lang.String)
+comment6.params=line
+comment6.target=java.lang.Double\ getNoteSurVingt(java.lang.String)
+numComments=7

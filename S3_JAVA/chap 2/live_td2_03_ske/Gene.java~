@@ -1,0 +1,12 @@
+
+public class Gene
+{
+
+    public final String dna;
+    public Gene(String dna){
+        this.dna=dna
+    }
+    
+    
+    
+}
