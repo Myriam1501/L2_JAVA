@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CaesarCipher
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CaesarCipher\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=input\ key
+comment1.target=java.lang.String\ encrypt(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ TestCaesar()
+comment2.text=\r\n\ An\ example\ of\ a\ Test\ Caesar\ method\ \r\n\ \ \ \ \r\n
+numComments=3
