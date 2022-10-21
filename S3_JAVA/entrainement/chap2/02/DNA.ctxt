@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=DNA
-comment1.params=strand
-comment1.target=DNA(java.lang.String)
-comment2.params=
-comment2.target=java.lang.String\ getFirstGene()
-comment3.params=args
-comment3.target=void\ main(java.lang.String[])
-numComments=4
